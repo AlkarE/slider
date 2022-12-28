@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+  </head>
+  <body>
+    <div id="hero-slider">
+      <div id="logo" class="mask">
+          <span class="logo-text masked">Martin Rohde</span>
+      </div>
+      <div id="slideshow">
+          <div id="slides-main" class="slides">
+              <div class="slide" data-index="0">
+                  <div class="abs-mask">
+                      <div class="slide-image" style="background-image: url(./slide1.jpg)"></div>
+                  </div>
+              </div>
+              <div class="slide" data-index="1">
+                  <div class="abs-mask">
+                      <div class="slide-image" style="background-image: url(./slide2.jpg)"></div>
+                  </div>
+              </div>
+              <div class="slide" data-index="2">
+                  <div class="abs-mask">
+                      <div class="slide-image" style="background-image: url(./slide3.jpg)"></div>
+                  </div>
+              </div>
+              <div class="slide" data-index="3">
+                  <div class="abs-mask">
+                      <div class="slide-image" style="background-image: url(./slide4.jpg)"></div>
+                  </div>
+              </div>
+              
+          </div>
+          <div id="slides-aux" class="slides mask">
+              <h2 class="slide-title slide" data-index="0"><a href="#">#64 Paradigm</a></h2>
+              <h2 class="slide-title slide" data-index="1"><a href="#">Industrial Works</a></h2>
+              <h2 class="slide-title slide" data-index="2"><a href="#">Future Lights</a></h2>
+              <h2 class="slide-title slide" data-index="3"><a href="#">The Colossal</a></h2>
+          </div>
+      </div>
+      <div id="info">
+          <div class="slider-title-wrapper">
+              <span class="line"></span>
+              <h1 class="slider-title">
+                  <span>Projects</span>
+              </h1>
+          </div>
+          <div class="about">
+              <p>
+                  A pure CSS/JS slider layout<br/>
+                  <br/>
+                  
+              </p>
+          </div>
+      </div>
+      <nav id="slider-nav">
+          <span class="current">01</span>
+          <span class="sep"></span>
+          <span class="total">04</span>
+      </nav>
+  </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

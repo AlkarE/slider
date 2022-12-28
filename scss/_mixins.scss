@@ -1,0 +1,4 @@
+@mixin outlined($color: $dark-color, $size: 1px) {
+	color: transparent;
+	-webkit-text-stroke: $size $color;
+}
